@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Mail, Globe } from "lucide-react";
+import { MapPin, Phone, Mail, Globe, Instagram, Linkedin, Facebook } from "lucide-react";
 import { COMPANY, CATEGORIES } from "../data/products";
+
+const SOCIALS = [
+  { name: "Instagram", href: "https://www.instagram.com/", Icon: Instagram },
+  { name: "LinkedIn", href: "https://www.linkedin.com/", Icon: Linkedin },
+  { name: "Facebook", href: "https://www.facebook.com/", Icon: Facebook },
+];
 
 export default function Footer() {
   return (
@@ -30,6 +36,23 @@ export default function Footer() {
             Premium quality agro commodities from India — exporting to the Middle
             East, Africa, Asia, and Europe.
           </p>
+
+          {/* Social icons */}
+          <div className="mt-6 flex items-center gap-3" data-testid="footer-socials">
+            {SOCIALS.map(({ name, href, Icon }) => (
+              <a
+                key={name}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={name}
+                data-testid={`social-${name.toLowerCase()}`}
+                className="w-10 h-10 flex items-center justify-center border border-[#eae6df]/20 text-[#eae6df]/80 hover:border-[#c59c34] hover:text-[#c59c34] hover:bg-white/[0.03] transition-colors duration-300"
+              >
+                <Icon className="w-4 h-4" />
+              </a>
+            ))}
+          </div>
         </div>
 
         {/* Quick links */}
