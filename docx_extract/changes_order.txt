@@ -1,0 +1,81 @@
+I want to change the background of the page in the home page, put this image in it.
+[IMAGE] media/image1.jpeg
+I want to change the photos in all the products. I will give you the product name and the photo below it. Keep it.
+FIRST PAGE ANIMAL FEED
+RAPASEEDS MEAL
+[IMAGE] media/image2.jpeg
+Soybean Meal
+[IMAGE] media/image3.jpeg
+Castor Meal
+[IMAGE] media/image4.jpeg
+Mustard Meal
+[IMAGE] media/image5.jpeg
+Cottonseed Meal
+[IMAGE] media/image6.jpeg
+THIS IS 2ND PAGE SPICES
+TURMERIC
+[IMAGE] media/image7.jpeg
+RED CHILLIE
+[IMAGE] media/image8.jpeg
+CORIENDER
+[IMAGE] media/image9.jpeg
+CLOVES
+[IMAGE] media/image10.jpeg
+BLACK PAPPER
+[IMAGE] media/image11.jpeg
+CUMIN SEED
+[IMAGE] media/image12.jpeg
+AJWAIN (Carom Seeds)
+[IMAGE] media/image13.jpeg
+Star Anise
+[IMAGE] media/image14.jpeg
+BAY LEAF
+[IMAGE] media/image15.jpeg
+Fenugreek Seeds
+[IMAGE] media/image16.jpeg
+Fennel Seeds
+[IMAGE] media/image17.png
+Red Chilli Flakes
+[IMAGE] media/image18.jpeg
+White Pepper
+[IMAGE] media/image19.jpeg
+THIS IS 3ND PAGE OIL SEEDS
+CASTOR SEEDS
+[IMAGE] media/image20.jpeg
+GROUNDNUT SEEDS
+[IMAGE] media/image21.jpeg
+MUSTARD SEEDS
+[IMAGE] media/image22.jpeg
+White Sesame Seeds
+[IMAGE] media/image23.jpeg
+SOYA BEAN
+[IMAGE] media/image24.jpeg
+Yellow Mustard Seeds
+[IMAGE] media/image25.jpeg
+Black Sesame Seeds
+[IMAGE] media/image26.jpeg
+THIS IS 4ND PAGE BEANS AND PULSES
+WHITE PEAS
+[IMAGE] media/image27.jpeg
+MOONG WHOLE
+[IMAGE] media/image28.jpeg
+CHICKPEAS
+[IMAGE] media/image29.jpeg
+DESI CHANA
+[IMAGE] media/image30.jpeg
+BLACK EYE BEANS ( CHORI )
+[IMAGE] media/image31.jpeg
+BLACK GRAM WHOLE
+[IMAGE] media/image32.jpeg
+CHANA DAL
+[IMAGE] media/image33.jpeg
+GREEN MILETS
+[IMAGE] media/image34.jpeg
+YELLOW CORN
+[IMAGE] media/image35.jpeg
+WHEAT WHOLE
+[IMAGE] media/image36.jpeg
+RICE
+[IMAGE] media/image37.jpeg
+Sorghum Seed
+[IMAGE] media/image38.jpeg
