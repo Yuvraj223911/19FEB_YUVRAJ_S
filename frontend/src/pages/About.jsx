@@ -39,8 +39,8 @@ export default function About() {
           <div className="lg:col-span-5">
             <div className="aspect-[4/5] overflow-hidden bg-[#eae6df] sticky top-32">
               <img
-                src="/images/brand/hero-bg.jpeg"
-                alt="Agricultural fields"
+                src="/images/brand/about.avif"
+                alt="Rock Agri — Agricultural sourcing"
                 className="w-full h-full object-cover"
               />
             </div>
