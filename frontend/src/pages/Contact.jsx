@@ -29,13 +29,19 @@ export default function Contact() {
         msg: "Thank you! Your inquiry has been received. We'll email you back shortly.",
       });
       // Open mailto as a second channel so email also reaches info@rockagri.in
+      // Use a programmatic anchor click to avoid navigating away from success state.
       const subject = encodeURIComponent(
         `New Inquiry from ${form.name || "Website Visitor"}`
       );
       const body = encodeURIComponent(
         `Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\nCountry: ${form.country}\nProduct of Interest: ${form.product}\n\nMessage:\n${form.message}`
       );
-      window.location.href = `mailto:${COMPANY.email}?subject=${subject}&body=${body}`;
+      const a = document.createElement("a");
+      a.href = `mailto:${COMPANY.email}?subject=${subject}&body=${body}`;
+      a.rel = "noopener";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
       setForm({
         name: "",
         email: "",
