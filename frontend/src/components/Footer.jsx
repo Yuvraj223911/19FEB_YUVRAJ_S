@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Mail, Globe, Instagram, Linkedin, Facebook } from "lucide-react";
+import { MapPin, Phone, Mail, Globe, Instagram, Linkedin, Facebook, Twitter } from "lucide-react";
 import { COMPANY, CATEGORIES } from "../data/products";
 
 const SOCIALS = [
   { name: "Instagram", href: "https://www.instagram.com/", Icon: Instagram },
   { name: "LinkedIn", href: "https://www.linkedin.com/", Icon: Linkedin },
   { name: "Facebook", href: "https://www.facebook.com/", Icon: Facebook },
+  { name: "Twitter", href: "https://twitter.com/", Icon: Twitter },
 ];
 
 export default function Footer() {
