@@ -45,11 +45,11 @@ export default function Home() {
               <span className="overline text-[#c59c34]">Since 2010 · Rajkot, Gujarat · India</span>
             </div>
             <h1
-              className="fade-up font-heading text-5xl md:text-7xl lg:text-8xl text-white leading-[1.02] mt-6 font-medium"
+              className="fade-up font-heading text-4xl md:text-6xl lg:text-7xl text-white leading-[1.05] mt-6 font-medium"
               style={{ animationDelay: "0.25s" }}
             >
-              Rooted in India.<br />
-              <span className="text-[#c59c34] italic font-normal">Trusted worldwide.</span>
+              Rock Agri —<br />
+              <span className="text-[#c59c34] italic font-normal">Premium Agro Products<br />for Global Markets.</span>
             </h1>
             <p
               className="fade-up text-lg md:text-xl text-white/85 mt-8 max-w-xl leading-relaxed"

@@ -31,8 +31,8 @@ function BrandMark({ onDarkHero }) {
   const taglineClass = onDarkHero ? "text-[#c59c34]" : "text-[#5c6a61]";
   return (
     <Link to="/" data-testid="navbar-logo" className="flex items-center gap-3 group">
-      <div className="w-11 h-11 rounded-full overflow-hidden bg-white border border-[#eae6df] shadow-sm">
-        <img src="/images/brand/logo.jpeg" alt="ROCK AGRI" className="w-full h-full object-cover" />
+      <div className="w-16 h-16 md:w-[72px] md:h-[72px] rounded-full overflow-hidden bg-white border border-[#eae6df] shadow-sm flex items-center justify-center">
+        <img src="/images/brand/logo.jpeg" alt="ROCK AGRI" className="w-full h-full object-contain p-1" />
       </div>
       <div className="leading-tight">
         <div className={`font-heading text-xl font-semibold tracking-wide ${nameClass}`}>
@@ -211,7 +211,7 @@ export default function Navbar() {
         onDarkHero,
       })}`}
     >
-      <div className="max-w-7xl mx-auto px-6 md:px-10 h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 h-24 flex items-center justify-between">
         <BrandMark onDarkHero={onDarkHero} />
         <DesktopNav onDarkHero={onDarkHero} />
         <button

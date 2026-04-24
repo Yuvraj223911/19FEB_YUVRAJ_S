@@ -12,11 +12,11 @@ export default function Footer() {
         {/* Brand block */}
         <div className="lg:col-span-1">
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-12 h-12 rounded-full overflow-hidden bg-white">
+            <div className="w-16 h-16 rounded-full overflow-hidden bg-white flex items-center justify-center">
               <img
                 src="/images/brand/logo.jpeg"
                 alt="ROCK AGRI"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain p-1"
               />
             </div>
             <div>
