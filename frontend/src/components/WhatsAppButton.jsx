@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { COMPANY } from "../data/products";
 
+const FAB_REVEAL_DELAY_MS = 600;
+const WHATSAPP_MESSAGE = "Hello ROCK AGRI, I'd like to inquire about your products.";
+
 // Inline WhatsApp SVG so we don't depend on icon library variants
 const WhatsAppIcon = (props) => (
   <svg
@@ -17,14 +20,11 @@ export default function WhatsAppButton() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const t = setTimeout(() => setVisible(true), 600);
-    return () => clearTimeout(t);
+    const timer = setTimeout(() => setVisible(true), FAB_REVEAL_DELAY_MS);
+    return () => clearTimeout(timer);
   }, []);
 
-  const message = encodeURIComponent(
-    `Hello ROCK AGRI, I'd like to inquire about your products.`
-  );
-  const href = `https://wa.me/${COMPANY.whatsapp}?text=${message}`;
+  const href = `https://wa.me/${COMPANY.whatsapp}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
   return (
     <a
